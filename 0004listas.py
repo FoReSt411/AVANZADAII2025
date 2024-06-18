@@ -1,20 +1,9 @@
-lista_1 = ["C", "C++", "Python", "Java"]
-lista_2 = ["PHP", "SQL", "Visual Basic"]
-lista_3 = ["a", "b", "c", "d"]
-lista_4 = [1, 2,3]
-lista_5= [True,False,True,False,True]
+input("BIENVENIDO A LA DIVISION, PRESIONA ENTER PARA CONTINUAR :)")
+num1= int(input("INGRESE EL PRIMER NUMERO:  "))
+num2= int(input("INGRESE EL SEGUNDO :  "))
+div= (num1/num2)
+print (div)
+input("Presione Enter para continuar...")
 
-lista_12= lista_1+lista_2
-lista_13= lista_3+lista_4
-lista_14= lista_1+lista_4
-
-lista_5.append(True)
-lista_5.pop(True)
-lista_5.sort()
-lista_5.reverse()
-print (lista_5)
-print (lista_1)
-print(lista_2)
-print(lista_12)
-print(lista_13)
-print(lista_14)
+import os
+os.system('cls' if os.name == 'nt' else 'clear')

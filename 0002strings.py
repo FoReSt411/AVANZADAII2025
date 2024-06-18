@@ -21,3 +21,4 @@ print(decimales.isnumeric())
 
 mensaje3=mensaje2.replace("hola","hello")
 print(mensaje3)
+

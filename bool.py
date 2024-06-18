@@ -7,4 +7,4 @@ mibool=True
 a = 6 > 5
 b = 30 == 15*3
 #comparaciones
-print(not(mibool == a and mibool != b))
+print(not(mibool == a and mibool != b))
